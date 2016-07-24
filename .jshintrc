@@ -1,0 +1,8 @@
+{
+  "node": true,
+  "mocha": true,
+  "camelcase": true,
+  "strict": true,
+  "esversion": 6,
+  "expr": true
+}

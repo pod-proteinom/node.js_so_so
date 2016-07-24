@@ -1,0 +1,35 @@
+{
+  "name": "node.js_so_so",
+  "version": "1.0.0",
+  "description": "hmvc boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start-w": "set NODE_PATH=./src&&set NODE_ENV=development&&nodemon index.js",
+    "test-w": "set NODE_PATH=./src;./test&&set NODE_ENV=test&&mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pod-proteinom/node.js_so_so.git"
+  },
+  "author": "pod_proteinom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pod-proteinom/node.js_so_so/issues"
+  },
+  "homepage": "https://github.com/pod-proteinom/node.js_so_so#readme",
+  "dependencies": {
+    "config": "^1.21.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.6",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta4",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "nodemon": "^1.9.2",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^3.2.0"
+  }
+}
